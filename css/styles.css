@@ -175,3 +175,34 @@ body {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
+/* ----------------ПОРТФОЛИО---------------------- */
+.section-portfolio-btn {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background: #f5f4fa;
+}
+.section-portfolio-btn:hover,
+.section-portfolio-btn:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+.section-portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.section-portfolio-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
