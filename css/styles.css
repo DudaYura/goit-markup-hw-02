@@ -1,9 +1,10 @@
 :root {
   --header-color: #2196f3;
+  --title-color: #212121;
+  --text-color: #757575;
 }
 body {
-  font-family: "Raleway", sans-serif;
-  font-family: "Roboto", sans-serif;
+  font-family: "Raleway", "Roboto", sans-serif;
 }
 
 .link {
@@ -19,7 +20,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--header-color);
 }
 
 .header-color {
@@ -33,11 +34,11 @@ body {
   color: #212121;
 }
 .current {
-  color: #2196f3;
+  color: var(--header-color);
 }
 .header-link:hover,
 .header-link:focus {
-  color: #2196f3;
+  color: var(--header-color);
 }
 .header-link-mail,
 .header-link-tel {
@@ -49,11 +50,11 @@ body {
 }
 .header-link-tel:hover,
 .header-link-tel:focus {
-  color: #2196f3;
+  color: var(--header-color);
 }
 .header-link-mail:hover,
 .header-link-mail:focus {
-  color: #2196f3;
+  color: var(--header-color);
 }
 /* -------------------ЗАКАЗ УСЛУГ------------------ */
 .section-service {
@@ -85,21 +86,32 @@ body {
   background-color: #2f303a;
 }
 /* -----------------------СФЕРА ДЕЯТЕЛЬНОСТИ------------------------ */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowarp;
+  clip-path: insert(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .section-reality-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--title-color);
 }
 
 .section-reality-text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--text-color);
 }
 /* ------------------ЧЕМ ЗАНИМАЮТСЯ-------------------------- */
 .section-class-title {
@@ -108,7 +120,7 @@ body {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--title-color);
 }
 /* --------------------КОМАНДА------------------------------- */
 .section-team {
@@ -120,7 +132,7 @@ body {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--title-color);
 }
 .section-team-title-second {
   font-weight: 500;
@@ -128,15 +140,14 @@ body {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--title-color);
 }
 .section-team-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--text-color);
 }
 /* ---------------------ПОДВАЛ----------------------------- */
 .footer {
@@ -197,12 +208,11 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--title-color);
 }
 .section-portfolio-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--text-color);
 }
